@@ -20,4 +20,4 @@ for line in fh:
 	count += 1
 	sumSpam = sumSpam + float(line[line.find(":")+2:])
 
-print "Average spam confidence: ", sumSpam/count
+print "Average spam confidence:", sumSpam/count

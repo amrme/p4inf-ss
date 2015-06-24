@@ -13,4 +13,4 @@ except:
 
 # pt all lines
 for line in fh:
-	print(line.upper())
+	print(line.upper().strip())

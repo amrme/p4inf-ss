@@ -2,7 +2,6 @@
 
 fh = open("mbox.txt")
 
-for line in mbox:
-	if line.startwith("From "):
-		print line
-		
+for line in fh:
+	if line.startswith("From "):
+		print line[4:]

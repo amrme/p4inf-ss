@@ -4,4 +4,4 @@ fh = open("mbox.txt")
 
 for line in fh:
 	if line.startswith("From "):
-		print line[4:]
+		print line[4:].strip()

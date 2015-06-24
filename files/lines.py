@@ -1,10 +1,17 @@
-# count the lines in a txt file
+# # count the lines in a txt file
+
+# fh = open("mbox.txt")
+
+# i = 0
+
+# for line in fh:
+# 	i += 1
+
+# print "num of lines: ", i
+
+
+# read and prt
 
 fh = open("mbox.txt")
 
-i = 0
-
-for line in fh:
-	i += 1
-
-print "num of lines: ", i
+print fh.read()

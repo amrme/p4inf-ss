@@ -8,8 +8,12 @@ fname = raw_input("path to file >")
 try:
 	fh = open(fname)
 except:
-	print "Invalid path", fname
-	exit()
+	if fname == "say my name":
+		print "Heisenberg"
+		exit()
+	else:
+		print "Invalid path", fname
+		exit()
 
 i = 0
 
